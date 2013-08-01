@@ -15,6 +15,9 @@
 /log/*.log
 /tmp
 
+# Ignore other unneeded files
+bundler_stubs/
+
 # appfog deployment
 public/assets
 vendor/cache

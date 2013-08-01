@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Googleror::Application.load_tasks
+Gror::Application.load_tasks

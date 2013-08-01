@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe "StaticPages" do
+  let(:base_title) { 'Google in RoR' }
   describe "Home page" do
     it "should have the h1 'Google in RoR'" do
       visit '/static_pages/home'
@@ -17,7 +18,7 @@ describe "StaticPages" do
     it "should have the title 'About Google'" do
       visit '/static_pages/about'
       page.should have_selector('title',
-          :text => ' - About Google')
+          :text => "#{base_title} - About Google")
     end
   end
 end

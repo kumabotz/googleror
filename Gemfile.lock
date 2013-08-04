@@ -182,6 +182,7 @@ DEPENDENCIES
   growl (= 1.0.3)
   guard-rspec (= 1.2.1)
   guard-spork (= 1.2.0)
+  haml
   haml-rails (>= 0.3.4)
   jquery-rails (= 2.0.2)
   pg (= 0.12.2)

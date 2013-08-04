@@ -14,6 +14,7 @@ group :development, :test do
   gem 'guard-spork', '1.2.0'
   gem 'childprocess', '0.3.6'
   gem 'spork', '0.9.2'
+  gem 'haml-rails', '>= 0.3.4'
 end
 
 # Gems used only for assets and not required

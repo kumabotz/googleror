@@ -3,6 +3,6 @@ Google in RoR [![Code Climate](https://codeclimate.com/github/kumabotz/gror.png)
 ## home
 ![](https://raw.github.com/kumabotz/gror/master/raw/home.png)
 
-## sign in
+## sign up
 ![](https://raw.github.com/kumabotz/gror/master/raw/signin.png)
 

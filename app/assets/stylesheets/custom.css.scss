@@ -1,5 +1,15 @@
 @import "bootstrap";
 
+.navbar-inner {
+  min-height: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.navbar .nav > li > a {
+  padding: 5px 10px 5px;
+}
+
 /* footer */
 
 footer {

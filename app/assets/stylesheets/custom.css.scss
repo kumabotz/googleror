@@ -1,4 +1,14 @@
-@import "bootstrap";
+/*
+ * base
+ */
+.w-container { max-width: 1250px }
+
+/*
+ * bootstrap
+ */
+.button-danger {
+  :hover, :focus, :active { white-space: nowrap }
+}
 
 .navbar-inner {
   min-height: 30px;
@@ -14,7 +24,6 @@
 }
 
 /* footer */
-
 footer {
   border-top: 1px solid #ebebeb;
   a {

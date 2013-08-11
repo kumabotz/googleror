@@ -2,7 +2,8 @@
   .w-container
     .w-row
       .w-col
-        = link_to 'SIGN IN', '#', class: 'button pull-right'
+        %a.btn.btn-danger.pull-right{href: '#'}
+          %span SIGN IN
 
 %section
   .w-container
@@ -11,5 +12,7 @@
       %p
         %input
       %p
-        = link_to 'Google Search', '#', class: 'btn'
-        = link_to 'I\'m Feeling Lucky', '#', class: 'btn'
+        %a.btn{href: '#'}
+          %span Google Search
+        %a.btn{href: '#'}
+          %span I'm Feeling Lucky

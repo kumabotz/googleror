@@ -8,11 +8,14 @@
 %section
   .w-container
     %center
-      = image_tag('google.png', width: '275', height: '95')
-      %p
-        %input
-      %p
-        %a.btn{href: '#'}
-          %span Google Search
-        %a.btn{href: '#'}
-          %span I'm Feeling Lucky
+      = image_tag('google.png', class: 'hero-img')
+      %form.form-horizontal
+        .control-group
+          .controls
+            %input{type: 'text', height: '1.25em'}
+        .control-group
+          .controls
+            %a.btn{href: '#'}
+              %span Google Search
+            %a.btn{href: '#'}
+              %span I'm Feeling Lucky

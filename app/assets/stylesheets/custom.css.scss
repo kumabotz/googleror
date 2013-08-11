@@ -1,6 +1,4 @@
-/*
- * base
- */
+/* base */
 .w-container {
   max-width: none;
   .w-row {
@@ -14,15 +12,17 @@
   padding-right: 15px;
 }
 
-/*
- * bootstrap
- */
+/* bootstrap */
 a {
   color: white;
   &:hover {
     color: white;
     text-decoration: none
   }
+}
+
+.form-horizontal .controls {
+  margin-left: 0;
 }
 
 .btn-danger {
@@ -68,7 +68,6 @@ a {
   padding: 5px 9px 5px;
 }
 
-/* footer */
 footer {
   border-top: 1px solid #ebebeb;
   a {
@@ -86,3 +85,12 @@ footer {
     }
   }
 }
+
+/* custom */
+.hero-img {
+  width: 275px;
+  height: 95px;
+  margin-top: 112px;
+  margin-bottom: 24px
+}
+

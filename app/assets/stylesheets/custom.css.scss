@@ -1,11 +1,72 @@
-@import "bootstrap";
-
-/* universal */
-body {
-  padding-top: 60px;
+/* base */
+.w-container {
+  max-width: none;
+  .w-row {
+    margin-left: 0;
+    margin-right: 0
+  }
 }
 
-/* footer */
+.w-col {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* bootstrap */
+a {
+  color: white;
+  &:hover {
+    color: white;
+    text-decoration: none
+  }
+}
+
+.form-horizontal .controls {
+  margin-left: 0;
+}
+
+.btn-danger {
+  padding: 0 15px 0;
+  border-radius: 2px;
+  font-size: 11px;
+  line-height: 27px;
+  font-weight: bold;
+  background-color: #d14836;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#dd4b39),to(#d14836));
+  background-image: -webkit-linear-gradient(top,#dd4b39,#d14836);
+  background-image: -moz-linear-gradient(top,#dd4b39,#d14836);
+  background-image: -ms-linear-gradient(top,#dd4b39,#d14836);
+  background-image: -o-linear-gradient(top,#dd4b39,#d14836);
+  background-image: linear-gradient(top,#dd4b39,#d14836);
+  border: 1px solid transparent;
+  &:hover {
+    background-color: #c53727;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#dd4b39),to(#c53727));
+    background-image: -webkit-linear-gradient(top,#dd4b39,#c53727);
+    background-image: -moz-linear-gradient(top,#dd4b39,#c53727);
+    background-image: -ms-linear-gradient(top,#dd4b39,#c53727);
+    background-image: -o-linear-gradient(top,#dd4b39,#c53727);
+    background-image: linear-gradient(top,#dd4b39,#c53727);
+    border-color: #b0281a;
+    border-bottom-color: #af301f;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  }
+}
+
+.navbar-inner {
+  min-height: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.navbar .nav > li > a {
+  padding: 5px 9px 5px;
+}
 
 footer {
   border-top: 1px solid #ebebeb;
@@ -24,3 +85,12 @@ footer {
     }
   }
 }
+
+/* custom */
+.hero-img {
+  width: 275px;
+  height: 95px;
+  margin-top: 112px;
+  margin-bottom: 24px
+}
+

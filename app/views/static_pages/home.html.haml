@@ -1,17 +1,21 @@
-%p
-  = link_to 'SIGN IN', '#', class: 'btn btn-primary'
+%section
+  .w-container
+    .w-row
+      .w-col
+        %a.btn.btn-danger.pull-right{href: '#'}
+          %span SIGN IN
 
-%p.center
-  = image_tag('google.png')
-
-%p
-  %input
-
-%p
-  = link_to 'Google Search', '#', class: 'btn'
-  = link_to 'I\'m Feeling Lucky', '#', class: 'btn'
-
-%p
-  Google.com offered in:
-  = link_to '中文(简体)', '#'
-  = link_to '中文(繁体)', '#'
+%section
+  .w-container
+    %center
+      = image_tag('google.png', class: 'hero-img')
+      %form.form-horizontal
+        .control-group
+          .controls
+            %input{type: 'text', height: '1.25em'}
+        .control-group
+          .controls
+            %a.btn{href: '#'}
+              %span Google Search
+            %a.btn{href: '#'}
+              %span I'm Feeling Lucky

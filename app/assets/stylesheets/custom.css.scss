@@ -68,6 +68,21 @@ a {
   padding: 5px 9px 5px;
 }
 
+.form-horizontal {
+  height: 82px;
+  .control-group {
+    margin-bottom: 16px
+  }
+}
+
+input[type="text"] {
+  width: 532px;
+  height: 27px;
+  padding: 3px 9px;
+  font-size: 16px;
+  line-height: 19px
+}
+
 footer {
   border-top: 1px solid #ebebeb;
   a {
@@ -93,4 +108,3 @@ footer {
   margin-top: 112px;
   margin-bottom: 24px
 }
-
